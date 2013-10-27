@@ -51,7 +51,7 @@ public class Donut {
     @EventHandler
     public void load(FMLPreInitializationEvent event) {
   
-        Configuration config = new Configuration(new File("config/Emerald.cfg"));
+        Configuration config = new Configuration(new File("config/Donut.cfg"));
         
         config.load();
                      
